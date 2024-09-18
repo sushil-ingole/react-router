@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 1rem;
+
+  & li {
+    list-style-type: none;
+    margin: 1rem 0;
+    margin-right: 5rem;
+
+    & a {
+      color: white;
+    }
+  }
+
+  & .red {
+    color: red;
+  }
+}
